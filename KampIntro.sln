@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donguler", "Döngüler\Dong
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{9722D432-17C5-41FE-9B69-262659E0AEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{3839E46C-074A-4307-B759-3371E8194706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{3839E46C-074A-4307-B759-3371E8194706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{79E7BECA-6E46-42C2-9DD7-93C39EDAA962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{79E7BECA-6E46-42C2-9DD7-93C39EDAA962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOutKw", "RefAndOutKw\RefAndOutKw.csproj", "{690B2033-B437-40F3-9F26-EED72F965D2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{79E7BECA-6E46-42C2-9DD7-93C39EDAA962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E7BECA-6E46-42C2-9DD7-93C39EDAA962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E7BECA-6E46-42C2-9DD7-93C39EDAA962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690B2033-B437-40F3-9F26-EED72F965D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690B2033-B437-40F3-9F26-EED72F965D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690B2033-B437-40F3-9F26-EED72F965D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690B2033-B437-40F3-9F26-EED72F965D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
