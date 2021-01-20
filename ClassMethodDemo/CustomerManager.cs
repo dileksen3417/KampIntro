@@ -6,9 +6,9 @@ namespace ClassMethodDemo
 {
     public class CustomerManager
     {
-        public void CustomerAdd()
+        public void CustomerAdd(Customer customerNew)
         {
-            Console.WriteLine("Müşteriler eklendi.");
+            Console.WriteLine(customerNew.CustomerName + " " + customerNew.CustomerSurname + "müşterisi sisteme başarıyla eklendi.");
         }
         public void CustomerList(Customer[] customers)
         {
@@ -23,9 +23,9 @@ namespace ClassMethodDemo
                     "\nMüşteri Telefonu: " + customer.CustomerPhone);
             }
         }
-        public void CustomerDelete()
+        public void CustomerDelete(string delAccountNo)
         {
-            Console.WriteLine("Müşteriler silindi.");
+            Console.WriteLine(delAccountNo + " hesap numaralı müşteri sistemden silindi.");
         }
     }
 }

@@ -7,21 +7,21 @@ namespace ClassMethodDemo
         static void Main(string[] args)
         {
             Customer customer1 = new Customer();
-            customer1.AccountNumber = "001116262";
+            customer1.AccountNumber = "0001";
             customer1.CustomerName = "Dilek";
             customer1.CustomerSurname = "Sen";
             customer1.CustomerAddress = "Cekmeköy";
             customer1.CustomerPhone = "5301112262";
 
             Customer customer2 = new Customer();
-            customer2.AccountNumber = "009996262_1";
+            customer2.AccountNumber = "0002";
             customer2.CustomerName = "Guney";
             customer2.CustomerSurname = "Sen";
             customer2.CustomerAddress = "Yenidogan";
             customer2.CustomerPhone = "5498862462";
 
             Customer customer3 = new Customer();
-            customer3.AccountNumber = "0001115555";
+            customer3.AccountNumber = "0003";
             customer3.CustomerName = "Altug";
             customer3.CustomerSurname = "Atmaca";
             customer3.CustomerAddress = "Pendik";
@@ -55,7 +55,7 @@ namespace ClassMethodDemo
                 Console.WriteLine("Müşteri telefon numarasını giriniz: ");
                 customerNew.CustomerPhone = Console.ReadLine();
 
-                cm.CustomerAdd();
+                cm.CustomerAdd(customerNew);
             }
             else if (secim==2)
             {
@@ -63,7 +63,9 @@ namespace ClassMethodDemo
             }
             else if (secim==3)
             {
-                cm.CustomerDelete();
+                Console.WriteLine("Silmek istediğiniz müşterinin hesap numarasını giriniz:");
+                string delAccountNo = Console.ReadLine();
+                cm.CustomerDelete(delAccountNo);
             }
             else
             {
