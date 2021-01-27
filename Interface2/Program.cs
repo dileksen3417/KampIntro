@@ -24,7 +24,9 @@ namespace Interface2
             customerManager.Add(new OracleCustomerDal());
             // her iki databse ile de ekleme işlemini yapabilirim.
 
+
             //Polimorfizm(çok biçimlilik)
+            Console.WriteLine("\n\nPolimorfizm ile dataları dbye ekleyelim:");
             ICustomerDal[] customerDals = new ICustomerDal[3]
             {
                 new MySqlCustomerDal(),
