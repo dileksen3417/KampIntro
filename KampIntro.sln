@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary", "MyDictionar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCapDemo1", "ReCapDemo1\ReCapDemo1.csproj", "{9035071D-6A5E-495A-826C-17F61265BB8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2", "Interface2\Interface2.csproj", "{40C26370-49E2-46D3-A9A9-A72642005777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface2", "Interface2\Interface2.csproj", "{40C26370-49E2-46D3-A9A9-A72642005777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample3", "InterfaceExample3\InterfaceExample3.csproj", "{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance(Kalıtım)", "Inheritance(Kalıtım)\Inheritance(Kalıtım).csproj", "{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{40C26370-49E2-46D3-A9A9-A72642005777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C26370-49E2-46D3-A9A9-A72642005777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C26370-49E2-46D3-A9A9-A72642005777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
