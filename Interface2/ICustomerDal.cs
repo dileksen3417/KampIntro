@@ -47,6 +47,24 @@ namespace Interface2
         }
     }
 
+    public class MangoDBCustomerDal : ICustomerDal
+    {
+        public void Add()
+        {
+            Console.WriteLine("MangoDB added.");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("MangoDB deleted.");
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("MangoDB updated.");
+        }
+    }
+
     class CustomerManager{
         public void Add(ICustomerDal customerDal)
         {

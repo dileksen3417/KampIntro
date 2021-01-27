@@ -17,13 +17,25 @@ namespace Interface2
             };
             manager.Add(student);
 
-            ///veritabanı örnegimiz ; 
+            ///veritabanı örnegimiz ;  
             Console.WriteLine("\n\nVeritabanı İşlemleri:" + "\n*****************");
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(new MySqlCustomerDal());
             customerManager.Add(new OracleCustomerDal());
             // her iki databse ile de ekleme işlemini yapabilirim.
 
+            //Polimorfizm(çok biçimlilik)
+            ICustomerDal[] customerDals = new ICustomerDal[3]
+            {
+                new MySqlCustomerDal(),
+                new OracleCustomerDal(),
+                new MangoDBCustomerDal()
+            };
+
+            foreach (ICustomerDal customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
         }
     }
 
