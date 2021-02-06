@@ -41,9 +41,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCapDemo1", "ReCapDemo1\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface2", "Interface2\Interface2.csproj", "{40C26370-49E2-46D3-A9A9-A72642005777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample3", "InterfaceExample3\InterfaceExample3.csproj", "{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample3", "InterfaceExample3\InterfaceExample3.csproj", "{89D600D0-7C94-4FEC-B27A-FC835C30DFAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance(Kalıtım)", "Inheritance(Kalıtım)\Inheritance(Kalıtım).csproj", "{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance(Kalıtım)", "Inheritance(Kalıtım)\Inheritance(Kalıtım).csproj", "{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample4", "InterfaceExample4\InterfaceExample4.csproj", "{23C7DC39-54C4-4040-A6A7-80C084E34DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{04E9D452-497B-42A6-A94C-26B1625C4D05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,14 @@ Global
 		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FA23EE1-B4EA-41CE-B5C9-7A59C84081CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C7DC39-54C4-4040-A6A7-80C084E34DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C7DC39-54C4-4040-A6A7-80C084E34DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C7DC39-54C4-4040-A6A7-80C084E34DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C7DC39-54C4-4040-A6A7-80C084E34DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E9D452-497B-42A6-A94C-26B1625C4D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E9D452-497B-42A6-A94C-26B1625C4D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E9D452-497B-42A6-A94C-26B1625C4D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E9D452-497B-42A6-A94C-26B1625C4D05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
