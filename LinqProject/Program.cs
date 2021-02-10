@@ -38,19 +38,24 @@ namespace LinqProject
 
             //WorkWithDto(products);
 
+            JoinMethod(categories, products);
+
+        }
+
+        private static void JoinMethod(List<Category> categories, List<Product> products)
+        {
             var result = from p in products
                          join c in categories
                          on p.CategoryId equals c.CategoryId
-                         where p.UnitPrice>5000
+                         where p.UnitPrice > 5000
                          orderby p.ProductName descending
-                         select new ProductDto {ProductId=p.ProductId, CategoryName=c.CategoryName, ProductName=p.ProductName, UnitPrice=p.UnitPrice };
+                         select new ProductDto { ProductId = p.ProductId, CategoryName = c.CategoryName, ProductName = p.ProductName, UnitPrice = p.UnitPrice };
 
 
             foreach (var productDto in result)
             {
-                Console.WriteLine("{0} --- {1}",productDto.ProductName, productDto.CategoryName);
+                Console.WriteLine("{0} --- {1}", productDto.ProductName, productDto.CategoryName);
             }
-
         }
 
         private static void WorkWithDto(List<Product> products)
